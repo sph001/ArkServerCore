@@ -96,6 +96,10 @@ namespace ArkServerCore
             this.IniManager.ReplaceValue("[ServerSettings]", "ServerCrosshair", this.Settings.ServerCrosshair.ToString());
             this.IniManager.ReplaceValue("[ServerSettings]", "ServerForceNoHud", this.Settings.ServerForceNoHud.ToString());
             this.IniManager.ReplaceValue("[ServerSettings]", "DifficultyOffset", this.Settings.Difficulty.ToString("0.000"));
+            this.IniManager.ReplaceValue("[ServerSettings]", "bDisableStructureDecayPvE", this.Settings.bDisableStructureDecayPve.ToString());
+            this.IniManager.ReplaceValue("[ServerSettings]", "bAllowFlyerCarryPvE", this.Settings.bAllowFlyerCarryPve.ToString());
+            this.IniManager.ReplaceValue("[ServerSettings]", "MaxStructuresInRange", this.Settings.MaxStructuresInRange.ToString());
+            this.IniManager.ReplaceValue("[ServerSettings]", "EnablePvPGamma", this.Settings.EnablePvpGama.ToString());
         }
     }
 }

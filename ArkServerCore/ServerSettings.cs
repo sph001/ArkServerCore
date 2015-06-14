@@ -26,6 +26,10 @@ namespace ArkServerCore
         public bool AllowThirdPersonPlayer { get; set; }
         public bool ServerCrosshair { get; set; }
         public bool MapPlayerLocation { get; set; }
+        public bool bDisableStructureDecayPve { get; set; }
+        public bool bAllowFlyerCarryPve { get; set; }
+        public int MaxStructuresInRange { get; set; }
+        public bool EnablePvpGama { get; set; }
 
         public ServerSettings ReadSettingsFile()
         {
